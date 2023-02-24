@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./imagens/imagem1.jpg);
+}
+ 
+body, input, textarea {
+    font-family: 'Chewy', cursive;
+}
+
+header, section h2, section h3, form button {
+    font-family: 'Chewy', cursive;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background: linear-gradient(#3d0644, #4b0c40, #771a77, #8d2088);
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container, .instru {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+
+section .container {
+            align-items: flex-start;
+        }
+
+section {
+            padding: 24px 0;
+            }
+        
+section h2 {
+                margin-bottom: 16px;
+                background: linear-gradient(#3d0644, #4b0c40, #771a77, #8d2088);
+                }
+
+section {
+    color:#ecf0f1;
+    }
+    
+section p {
+        margin-bottom: 8px;
+        font-size: 19px;
+        background: linear-gradient(#3d0644, #4b0c40, #771a77, #8d2088);
+        }
+
+
+.impq img {
+            height: 150px;
+                }
+
+#instruction .container {
+    display: block;
+}
+
+.formularios {
+    display: inline;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 2px;
+    padding: 2px;
+    margin-right: 2000px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+
+form button {
+    background: linear-gradient(#3d0644, #4b0c40, #771a77, #8d2088);;
+    color:  #ecf0f1;
+    border: none;
+    cursor: pointer;
+    }
+    
+form button:hover {
+    background: linear-gradient(#3d0644, #4b0c40, #771a77, #8d2088);
+}
+
+input:focus, textarea:focus {
+    outline-color: #57044c;
+}
+
+footer {
+    background: linear-gradient(#3d0644, #4b0c40, #771a77, #8d2088);
+    color: #ecf0f1;
+    padding: 16px 0;
+}
